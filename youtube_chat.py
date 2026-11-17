@@ -10,7 +10,7 @@ from langchain_core.runnables import RunnableLambda,RunnablePassthrough ,Runnabl
 import streamlit as st
  
 load_dotenv()
-st.title("Youtube RAG Chatbot")
+st.tile("Youtube RAG Chatbot")
 
 
 video_id = st.text_input(
